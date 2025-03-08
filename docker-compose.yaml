@@ -1,0 +1,7 @@
+services:
+  php:
+    image: php:8.1.31-cli-alpine3.20
+    command: tail -f /dev/null
+    working_dir: /app
+    volumes:
+      - .:/app
